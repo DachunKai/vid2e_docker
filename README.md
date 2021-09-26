@@ -7,7 +7,7 @@ source activate
 pip install torch==1.3.1 torchvision==0.4.2
 conda install -y -c conda-forge pybind11 matplotlib
 pip install /home/liam/rpg_vid2e/esim_py/
-pip install /home/rpg_vid2e/esim_torch/
+pip install /home/liam/rpg_vid2e/esim_torch/
 pip install opencv-python-headless
 ```
 ## 3 Usage
