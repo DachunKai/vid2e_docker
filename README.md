@@ -1,3 +1,4 @@
+Thanks to [Freed-Wu/my-dockerfile](https://github.com/Freed-Wu/my-dockerfile)
 # Steps to run vid2e code on bitahub
 ## 1 Build dockerfile_bitahub on [Bitahub](https://www.bitahub.com/login)
 ## 2 Open the terminnal and create the vid2e virtual environment
