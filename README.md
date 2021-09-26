@@ -22,7 +22,8 @@ python esim_torch/generate_events.py --input_dir=example/upsampled \
                                      --contrast_threshold_pos=0.2 \
                                      --refractory_period_ns=0
 ```
-# Other: Due to Bitahub host machine doesn't have GPU, the file Dockerfile_total needs to be built on GPU machine. Then it's no need to install vid2e conda environment.
+# Other
+Due to Bitahub host machine doesn't have GPU, the file Dockerfile_total needs to be built on GPU machine. Then it's no need to install vid2e conda environment.
 ```bash
 docker build -t pytorch/vid2e:1.3-cuda10.1-cudnn7-devel .
 docker run -it pytorch/vid2e:1.3-cuda10.1-cudnn7-devel /bin/bash
