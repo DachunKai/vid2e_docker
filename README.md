@@ -14,6 +14,8 @@ pip install opencv-python-headless
 ## 3 Usage
 This part is same as [vid2e](https://github.com/uzh-rpg/rpg_vid2e) Example part.
 ```bash
+#clone vid2e reposity to /code/rpg_vid2e/
+git clone https://github.com/uzh-rpg/rpg_vid2e.git /code/rpg_vid2e/
 cd /code/rpg_vid2e/
 device=cuda:0
 python upsampling/upsample.py --input_dir=example/original --output_dir=example/upsampled --device=$device
