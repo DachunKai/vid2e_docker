@@ -3,7 +3,6 @@ Thanks to [Freed-Wu/my-dockerfile](https://github.com/Freed-Wu/my-dockerfile) an
 ## 1 Build dockerfile_bitahub on [Bitahub](https://www.bitahub.com/login)
 ## 2 Open the terminnal and create the vid2e virtual environment
 ```bash
-conda create -y --name vid2e --file /home/liam/rpg_vid2e/requirements.txt
 source activate
 pip install torch==1.3.1 torchvision==0.4.2
 conda install -y -c conda-forge pybind11 matplotlib
