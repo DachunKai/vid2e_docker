@@ -5,7 +5,11 @@ Thanks to [Freed-Wu/my-dockerfile](https://github.com/Freed-Wu/my-dockerfile) an
 ```bash
 source activate && \
 conda activate vid2e && \
-pip install torch==1.3.1 torchvision==0.4.2 && \
+pip install torch==1.3.1 torchvision==0.4.2 \
+```
+Maybe the higher version of torch, torchvision is better
+```bash
+pip3 install torch==1.10.2+cu113 torchvision==0.11.3+cu113 torchaudio==0.10.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html && | 
 conda install -y -c conda-forge pybind11 matplotlib && \
 pip install /home/liam/rpg_vid2e/esim_py/ && \
 pip install /home/liam/rpg_vid2e/esim_torch/ && \
