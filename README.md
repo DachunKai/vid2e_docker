@@ -1,4 +1,9 @@
 Thanks to [Freed-Wu/my-dockerfile](https://github.com/Freed-Wu/my-dockerfile) and [vid2e](https://github.com/uzh-rpg/rpg_vid2e.git) source code.
+# Update
+bitahub_nv111/ contain env vid2e, and include torch1.10.2 cuda11.1 esim_py
+bitahub_nv113/ contain env vid2e, and include torch1.11 cuda11.3, install from conda
+- both need to build Dockerfile, and then run the image -> install esim_torch/ manually -> commit the container to image.
+
 # Steps to run vid2e code on bitahub
 ## 1 Build dockerfile_bitahub on [Bitahub](https://www.bitahub.com/login)
 ## 2 Open the terminnal and create the vid2e virtual environment
